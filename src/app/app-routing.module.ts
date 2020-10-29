@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './modules/home/pages/home/home.component';
 import { PartyResignationCategoryComponent } from './modules/party-resignation-category/pages/party-resignation-category/party-resignation-category.component';
+import { PartyResignationDateComponent } from './modules/party-resignation-date/pages/party-resignation-date/party-resignation-date.component';
 
 
 
@@ -30,6 +31,7 @@ const routes: Routes = [
   },
   {
     path: 'party-resignation-date',
+    component: PartyResignationDateComponent,
     children: [
       {
         path: '',
