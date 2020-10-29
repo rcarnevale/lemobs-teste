@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { PartyResignationDateRoutingModule } from './party-resignation-date-routing.module';
-import { IndexComponent } from './pages/index/index.component';
+import { PartyResignationDateComponent } from './pages/party-resignation-date/party-resignation-date.component';
 
 
 
 @NgModule({
-  declarations: [IndexComponent],
+  declarations: [PartyResignationDateComponent],
   imports: [
     CommonModule,
     PartyResignationDateRoutingModule

@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IndexComponent } from './pages/index/index.component';
+
 import { PartyResignationCategoryRoutingModule } from './party-resignation-category-routing.module';
+import { PartyResignationCategoryComponent } from './pages/party-resignation-category/party-resignation-category.component';
 
 
 
 @NgModule({
-  declarations: [IndexComponent],
+  declarations: [PartyResignationCategoryComponent],
   imports: [
     CommonModule,
     PartyResignationCategoryRoutingModule

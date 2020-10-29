@@ -12,7 +12,7 @@
     # mkdir -p ./src/app/modules/home/services/DTO/response
     # npx ng g m modules/home/
     # npx ng g s modules/home/services/home --skipTests=true
-    # npx ng g c modules/home/pages/index
+    # npx ng g c modules/home/pages/home
     # npx ng generate module modules/home/home-routing --flat --module=home
 
 
@@ -23,7 +23,7 @@
     # mkdir -p ./src/app/modules/party-resignation-date/services/DTO/response
     # npx ng g m modules/party-resignation-date/
     # npx ng g s modules/party-resignation-date/services/party-resignation-date --skipTests=true
-    # npx ng g c modules/party-resignation-date/pages/index
+    # npx ng g c modules/party-resignation-date/pages/party-resignation-date
     # npx ng generate module modules/party-resignation-date/party-resignation-date-routing --flat --module=party-resignation-date
 
 # party-resignation-category
@@ -33,5 +33,5 @@
     # mkdir -p ./src/app/modules/party-resignation-category/services/DTO/response
     # npx ng g m modules/party-resignation-category/
     # npx ng g s modules/party-resignation-category/services/party-resignation-category --skipTests=true
-    # npx ng g c modules/party-resignation-category/pages/index
+    # npx ng g c modules/party-resignation-category/pages/party-resignation-category
     # npx ng generate module modules/party-resignation-category/party-resignation-category-routing --flat --module=party-resignation-category
