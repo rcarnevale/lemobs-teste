@@ -1,10 +1,11 @@
 # Create estrutura
 
-# Create paths
+# CREATE PATH #
     # mkdir ./src/app/modules
     # mkdir ./src/app/shared
     # mkdir ./src/app/design-system
 
+# CREATE COMPONENTS #
 # home
     # mkdir -p ./src/app/modules/home/components
     # mkdir -p ./src/app/modules/home/pages    
@@ -35,3 +36,20 @@
     # npx ng g s modules/party-resignation-category/services/party-resignation-category --skipTests=true
     # npx ng g c modules/party-resignation-category/pages/party-resignation-category
     # npx ng generate module modules/party-resignation-category/party-resignation-category-routing --flat --module=party-resignation-category
+
+# CREATE SHARED #
+
+# shared
+    # npx ng g m shared/
+    # mkdir -p ./src/app/shared/components
+    # mkdir -p ./src/app/shared/enum
+    # mkdir -p ./src/app/shared/models
+    # mkdir -p ./src/app/shared/utils
+    # mkdir -p ./src/app/shared/services
+    # mkdir -p ./src/app/shared/mocks
+    # mkdir -p ./src/app/shared/pipes
+    # mkdir -p ./src/app/shared/directives
+    # mkdir -p ./src/app/shared/utils
+
+# shared components
+    # ng g c shared/components/header
