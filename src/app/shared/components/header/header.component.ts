@@ -8,14 +8,25 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
+  public selectedRoute: string;
+
   constructor(
-    private router: Router
-  ) { }
+    private router: Router,
+
+  ) {
+   }
 
   ngOnInit(): void {
+    
+  }
+
+  isSelected(route: string): boolean{
+    return this.selectedRoute == route? true:false;
   }
 
   navigateTo(route: string): void{
+    this.selectedRoute = route;
+    console.log(this.selectedRoute)
     this.router.navigate([route]);
   }
 

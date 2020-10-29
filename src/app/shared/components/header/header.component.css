@@ -1,1 +1,49 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+.header {
+    background-color: #002A5E;
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    display: flex;
+}
+
+.nav-item {
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.nav-link {
+    font-size: large;
+    cursor: pointer;
+    margin: 1em;
+    line-height: 18px;
+    font-family: "Raleway", "Open Sans", sans-serif;
+    font-weight: 600;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #002A5E;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.selected {
+    color: #002A5E;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header-sidebar {
+    background: #98A8BD;
+    height: 10px;
+}
