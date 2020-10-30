@@ -34,14 +34,10 @@
 }
 
 .nav-link:hover {
-    text-decoration: none;
     color: white;
-    border: none;
 }
 
-
 .selected {
-    color: white;
-    border: 1px solid white;
+    border: 1px solid white !important;
     border-radius: 5px;
 }

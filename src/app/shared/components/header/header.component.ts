@@ -21,9 +21,6 @@ export class HeaderComponent implements OnInit {
     
   }
 
-
-  ////////////// ROTAS /////////////////
-
   isSelected(route: string): boolean{
     return this.selectedRoute == route? true:false;
   }
@@ -34,12 +31,7 @@ export class HeaderComponent implements OnInit {
     this.router.navigate([route]);
   }
 
-  /////////////////////////////////////
 
-  ///////////// SIDEBAR ////////////////
 
-  toggleSidebar(){
-    console.log('toggle sidebar')
-    this.closedSidebar = !this.closedSidebar;
-  }
+
 }
