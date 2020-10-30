@@ -13,8 +13,8 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     private router: Router,
-
   ) {
+    this.selectedRoute = this.router.url
    }
 
   ngOnInit(): void {
@@ -22,12 +22,11 @@ export class HeaderComponent implements OnInit {
   }
 
   isSelected(route: string): boolean{
+    if(this.selectedRoute == '/' && route == '/home') return true;
     return this.selectedRoute == route? true:false;
   }
 
   navigateTo(route: string): void{
-    this.selectedRoute = route;
-    console.log(this.selectedRoute)
     this.router.navigate([route]);
   }
 
