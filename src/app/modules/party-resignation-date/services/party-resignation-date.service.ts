@@ -24,7 +24,13 @@ export class PartyResignationDateService {
     let params = new HttpParams()
       params.set('nome_parametro_1', receivedParams);
 
-    return this.http.get(`${this.apiUrlHost + this.methods}`, 
+    return this.http.get(`${this.apiUrlHost + this.methods.getDados}`, 
       {headers:this.getHeaders(), params:params})
+  }
+
+  postMethodPlaceholder(body){
+
+    return this.http.post(`${this.apiUrlHost + this.methods.postDados}`, body,
+      {headers:this.getHeaders()})
   }
 }

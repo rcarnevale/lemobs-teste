@@ -8,10 +8,12 @@ export const environment = {
     host:'url do host',
     methods: {
       resignationDate: {
-        getDados:''
+        getDados:'',
+        postDados:''
       },
       resignationCategory: {
-        getDados:''
+        getDados:'',
+        postDados:''
       }
     }
   }
