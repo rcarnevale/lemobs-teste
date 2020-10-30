@@ -12,7 +12,7 @@ import { TableauModule } from 'ngx-tableau';
   imports: [
     CommonModule,
     PartyResignationDateRoutingModule,
-    TableauModule
+    TableauModule,
   ]
 })
 export class PartyResignationDateModule { }
