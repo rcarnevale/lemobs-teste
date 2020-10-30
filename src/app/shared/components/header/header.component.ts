@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
 
   public selectedRoute: string;
+  public closedSidebar = false;
 
   constructor(
     private router: Router,
@@ -20,6 +21,9 @@ export class HeaderComponent implements OnInit {
     
   }
 
+
+  ////////////// ROTAS /////////////////
+
   isSelected(route: string): boolean{
     return this.selectedRoute == route? true:false;
   }
@@ -30,4 +34,12 @@ export class HeaderComponent implements OnInit {
     this.router.navigate([route]);
   }
 
+  /////////////////////////////////////
+
+  ///////////// SIDEBAR ////////////////
+
+  toggleSidebar(){
+    console.log('toggle sidebar')
+    this.closedSidebar = !this.closedSidebar;
+  }
 }

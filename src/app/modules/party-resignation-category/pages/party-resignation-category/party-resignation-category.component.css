@@ -1,6 +1,11 @@
-.tableauStyle {
-  height: auto;
-  width: 100%;
+.tableau-container{
   justify-content: center;
   align-items: center;
+  height: auto;
+  width: 100%;
+  margin: 0;
+}
+
+.tableauStyle {
+  margin: 0;  
 }

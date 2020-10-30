@@ -1,11 +1,10 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-
 .header {
+    border-top: 5px solid #98A8BD;
     width: 100%;
     justify-content: center;
     height: 100px;
-    
 }
 
 .nav {
@@ -30,25 +29,19 @@
 
 }
 
-a {
+.nav-link {
     color: white;
 }
 
-a:hover {
-    color: #002A5E;
-    background-color: white;
-    border-radius: 5px;
+.nav-link:hover {
+    text-decoration: none;
+    color: white;
+    border: none;
 }
 
 
 .selected {
-    color: #002A5E;
-    background-color: white;
+    color: white;
+    text-decoration: underline;
     border-radius: 5px;
-}
-
-.header-sidebar {
-    background: #98A8BD;
-    height: 10px;
-    width: 100%;
 }
