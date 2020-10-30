@@ -2,10 +2,14 @@
 
 
 .header {
-    background-color: #002A5E;
     width: 100%;
     justify-content: center;
     height: 100px;
+    
+}
+
+.nav {
+    background-color: #002A5E;
     display: flex;
 }
 
@@ -46,4 +50,5 @@ a:hover {
 .header-sidebar {
     background: #98A8BD;
     height: 10px;
+    width: 100%;
 }

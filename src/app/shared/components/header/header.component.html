@@ -1,6 +1,10 @@
 <header class="header">
   <ul class="nav nav-tabs">
     <li class="nav-item" >
+      <a class="nav-link" [ngClass]="{'selected': isSelected('/home')}"
+      (click)='navigateTo("/home")'>Home</a>
+  </li>
+    <li class="nav-item" >
         <a class="nav-link" [ngClass]="{'selected': isSelected('/party-resignation-category')}"
         (click)='navigateTo("/party-resignation-category")'>Party/Category</a>
     </li>
