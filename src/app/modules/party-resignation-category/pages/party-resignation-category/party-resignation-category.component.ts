@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-party-resignation-category',
   templateUrl: './party-resignation-category.component.html',
@@ -10,6 +11,8 @@ export class PartyResignationCategoryComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
+  
 }

@@ -19,10 +19,13 @@
     "@angular/platform-browser": "~10.2.0",
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
+    "angular4-tableau-api": "0.0.2",
     "bootstrap": "^4.5.3",
     "chart.js": "^2.9.4",
     "ng2-charts": "^2.4.2",
+    "ngx-tableau": "^1.0.0",
     "rxjs": "~6.6.0",
+    "tableau-api": "^2.2.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
